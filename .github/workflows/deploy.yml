@@ -32,7 +32,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: /AegisElder-SenSentinel/
+          BASE_PATH: /Hack-Apertus-Apertus-1.5/
         run: npm run build
 
       - name: SPA fallback (404 -> index)

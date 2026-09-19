@@ -51,14 +51,14 @@ const capabilities = [
     title: '情感陪伴与对话解闷',
     subtitle: 'AegisEdge Ai5 本地多模态语音',
     desc:
-      '依托 AegisEdge Ai5 算力，本地运行 Qwen3-Omni 多模态模型，支持方言识别、慢速口语交互。机器人可以陪老人日常聊天、回忆往事、朗读新闻戏曲、提醒日常起居；具备情绪感知能力，感知老人低落情绪主动安抚。对话全部本地处理，不用上传录音至云端，保护家庭隐私。',
+      '依托 AegisEdge Ai5 算力，本地运行 Apertus 1.5 多模态模型，支持方言识别、慢速口语交互。机器人可以陪老人日常聊天、回忆往事、朗读新闻戏曲、提醒日常起居；具备情绪感知能力，感知老人低落情绪主动安抚。对话全部本地处理，不用上传录音至云端，保护家庭隐私。',
     points: [
       { icon: MessageCircle, text: '日常聊天 · 回忆往事 · 朗读新闻戏曲' },
       { icon: Smile, text: '情绪感知，低落时主动安抚' },
       { icon: Clock, text: '起居作息定时提醒' },
       { icon: Lock, text: '对话本地处理，录音不上云' },
     ],
-    tags: ['Qwen3-Omni', '方言识别', '情绪感知', '隐私本地'],
+    tags: ['Apertus 1.5', '方言识别', '情绪感知', '隐私本地'],
     accent: 'from-teal-400 to-emerald-500',
     glow: 'rgba(45,212,191,0.18)',
     image:
@@ -396,14 +396,14 @@ export default function C2CFamily() {
               为居家养老的长者家庭配备一位 24 小时在岗的
               <span className="text-teal-300 font-semibold">「机器保姆」</span>
               。森卫安护搭载<span className="text-teal-300 font-semibold"> AegisEdge Ai5 边缘 AI 芯片</span>
-              ，在家庭本地端侧运行 <span className="text-emerald-300 font-semibold">Qwen3-Omni 多模态大模型</span>
+              ，在家庭本地端侧运行 <span className="text-emerald-300 font-semibold">Apertus 1.5 多模态大模型</span>
               ，大部分感知、识别、对话计算在机器人本地完成，不依赖持续云端连接，保护家庭隐私。面向独居老人、空巢家庭，提供全天候情感陪伴、居家跌倒监测、一键紧急呼叫、子女远程探视，让异地子女实时掌握老人居家安全状态，兼顾老人情感需求与家庭安全防护。
             </p>
 
             <div className="flex flex-wrap gap-2.5">
               {[
                 { icon: Cpu, text: 'AegisEdge Ai5 端侧芯片' },
-                { icon: Sparkles, text: 'Qwen3-Omni 多模态大模型' },
+                { icon: Sparkles, text: 'Apertus 1.5 多模态大模型' },
                 { icon: Lock, text: '影像语音本地处理' },
                 { icon: Wifi, text: '不依赖持续云端' },
                 { icon: Heart, text: '全天候情感陪伴' },

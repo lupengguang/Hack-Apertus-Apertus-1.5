@@ -397,14 +397,14 @@ export default function G2CGovernment() {
               面向民政部门、街道社区服务中心、社区养老驿站，打造
               <span className="text-indigo-300 font-semibold">普惠型社区智慧养老公共服务方案</span>
               。森卫安护搭载<span className="text-indigo-300 font-semibold"> AegisEdge Ai5 边缘 AI 芯片</span>
-              ，本地端侧运行 <span className="text-purple-300 font-semibold">Qwen3-Omni 多模态大模型</span>
+              ，本地端侧运行 <span className="text-purple-300 font-semibold">Apertus 1.5 多模态大模型</span>
               ，依托端侧算力完成社区老人风险感知、健康随访、重点人群监护。助力基层落实独居、空巢、失能、低保长者关爱巡访，补齐社区养老人力缺口，建立长者安全风险台账，形成「社区驿站 + 入户看护 + 数据监管」一体化养老服务底座，辅助民政单位做养老民生监测、风险预警与服务成效统计。
             </p>
 
             <div className="flex flex-wrap gap-2.5">
               {[
                 { icon: Cpu, text: 'AegisEdge Ai5 端侧芯片' },
-                { icon: Sparkles, text: 'Qwen3-Omni 多模态大模型' },
+                { icon: Sparkles, text: 'Apertus 1.5 多模态大模型' },
                 { icon: Lock, text: '安全隔离单元脱敏加密' },
                 { icon: ShieldCheck, text: '政务数据合规对接' },
                 { icon: Users, text: '独居失能长者关爱巡访' },

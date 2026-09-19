@@ -202,7 +202,7 @@ export default function Hero() {
             <motion.button
               whileHover={{ scale: 1.05, x: 5 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => navigate('/qwen3-omni')}
+              onClick={() => navigate('/apertus-1-5')}
               className="group inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-gradient-to-r from-cyan-400 to-blue-500 text-black rounded-full text-sm font-semibold hover:shadow-[0_0_30px_rgba(34,211,238,0.5)] transition-all"
             >
               探索守护方案

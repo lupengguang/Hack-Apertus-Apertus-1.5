@@ -9,7 +9,7 @@ import Chip3DShowcase from './pages/Chip3DShowcase';
 import B2BEldercare from './pages/B2BEldercare';
 import C2CFamily from './pages/C2CFamily';
 import G2CGovernment from './pages/G2CGovernment';
-import QwenOmniBrain from './pages/QwenOmniBrain';
+import ApertusBrain from './pages/ApertusBrain';
 import AegisDock from './pages/AegisDock';
 import BackupBattery from './pages/BackupBattery';
 import SenHuUltra from './pages/SenHuUltra';
@@ -34,7 +34,7 @@ function PageRoutes() {
         <Route path="/b2b-eldercare" element={<B2BEldercare />} />
         <Route path="/c2c-family" element={<C2CFamily />} />
         <Route path="/g2c-government" element={<G2CGovernment />} />
-        <Route path="/qwen3-omni" element={<QwenOmniBrain />} />
+        <Route path="/apertus-1-5" element={<ApertusBrain />} />
         <Route path="/aegis-dock" element={<AegisDock />} />
         <Route path="/backup-battery" element={<BackupBattery />} />
         <Route path="/senhu-ultra" element={<SenHuUltra />} />

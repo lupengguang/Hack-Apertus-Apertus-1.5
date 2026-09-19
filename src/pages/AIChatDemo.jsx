@@ -9,7 +9,7 @@ import {
 } from 'lucide-react';
 
 /* ====================================================================
- * AI 陪护对话演示 · 森卫安护 × Qwen3-Omni
+ * AI 陪护对话演示 · 森卫安护 × Apertus 1.5
  * 纯前端模拟：多模态端侧 AI 陪护对话（无后端，关键词规则 + 打字机）
  * ==================================================================== */
 
@@ -263,7 +263,7 @@ export default function AIChatDemo() {
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="flex items-center gap-3 mb-5">
             <span className="w-10 h-px bg-cyan-400" />
             <span className="text-[11px] font-semibold tracking-[0.4em] text-cyan-300/90 uppercase">
-              Qwen3-Omni · AI Companion Demo
+              Apertus 1.5 · AI Companion Demo
             </span>
           </motion.div>
           <motion.h1
@@ -282,7 +282,7 @@ export default function AIChatDemo() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-sm md:text-base text-slate-400 max-w-2xl leading-relaxed"
           >
-            由 Qwen3-Omni 多模态大模型驱动、AegisEdge Ai5 端侧算力支撑——
+            由 Apertus 1.5 多模态大模型驱动、AegisEdge Ai5 端侧算力支撑——
             点击下方场景问题，体验森卫安护如何陪老人聊天、提醒用药、处理跌倒险情与远程探亲。
           </motion.p>
         </div>
@@ -345,7 +345,7 @@ export default function AIChatDemo() {
                 端侧智能
               </div>
               {[
-                { icon: Sparkles, label: 'Qwen3-Omni 多模态' },
+                { icon: Sparkles, label: 'Apertus 1.5 多模态' },
                 { icon: Cpu, label: 'AegisEdge Ai5 · 1280 TOPS' },
                 { icon: Activity, label: '推理延迟 < 2 ms' },
                 { icon: ShieldAlert, label: '险情分级告警' },
@@ -356,7 +356,7 @@ export default function AIChatDemo() {
                 </div>
               ))}
               <Link
-                to="/qwen3-omni"
+                to="/apertus-1-5"
                 className="mt-4 w-full inline-flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-xs font-semibold bg-white/5 hover:bg-cyan-500/15 hover:text-cyan-300 border border-white/10 hover:border-cyan-400/30 transition-colors"
               >
                 了解 AI 大脑架构
@@ -560,10 +560,10 @@ export default function AIChatDemo() {
 
         <div className="mt-12 text-center">
           <Link
-            to="/qwen3-omni"
+            to="/apertus-1-5"
             className="group inline-flex items-center gap-2 px-8 py-3.5 bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-950 rounded-full text-sm font-bold hover:shadow-[0_0_36px_rgba(34,211,238,0.45)] transition-shadow"
           >
-            了解 Qwen3-Omni AI 大脑
+            了解 Apertus 1.5 AI 大脑
             <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
           </Link>
         </div>

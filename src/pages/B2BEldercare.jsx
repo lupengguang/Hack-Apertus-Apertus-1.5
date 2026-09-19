@@ -88,16 +88,16 @@ const capabilities = [
     no: '03',
     icon: HeartHandshake,
     title: '辅助转移与喂餐喂药 · 老年语音陪伴',
-    subtitle: '运动规划单元 + Qwen3-Omni 多模态模型',
+    subtitle: '运动规划单元 + Apertus 1.5 多模态模型',
     desc:
-      'AegisEdge Ai5 驱动机器人运动规划单元，辅助护工完成老人搀扶、转移助力；定时提醒老人服药、就餐、康复训练。内置 Qwen3-Omni 多模态模型，支持方言、慢速口语对话，陪老人聊天、读报、心理情绪安抚，缓解养老院老人孤独感。',
+      'AegisEdge Ai5 驱动机器人运动规划单元，辅助护工完成老人搀扶、转移助力；定时提醒老人服药、就餐、康复训练。内置 Apertus 1.5 多模态模型，支持方言、慢速口语对话，陪老人聊天、读报、心理情绪安抚，缓解养老院老人孤独感。',
     points: [
       { icon: HeartHandshake, text: '搀扶转移助力，减轻护工负荷' },
       { icon: Check, text: '服药 / 就餐 / 康复训练定时提醒' },
       { icon: MessageCircle, text: '方言 + 慢速口语自然对话' },
       { icon: Sparkles, text: '聊天读报与情绪安抚陪伴' },
     ],
-    tags: ['运动规划', 'Qwen3-Omni', '方言对话', '情绪安抚'],
+    tags: ['运动规划', 'Apertus 1.5', '方言对话', '情绪安抚'],
     accent: 'from-teal-400 to-emerald-400',
     glow: 'rgba(45,212,191,0.18)',
     image:
@@ -406,7 +406,7 @@ export default function B2BEldercare() {
               面向<span className="text-cyan-300 font-semibold">养老院、护理院、CCRC 养老社区、康复医院</span>
               批量部署森卫安护人形陪护机器人。机器人搭载自研
               <span className="text-cyan-300 font-semibold"> AegisEdge Ai5 边缘 AI 芯片</span>
-              ，本地端侧运行 <span className="text-purple-300 font-semibold">Qwen3-Omni 多模态大模型</span>
+              ，本地端侧运行 <span className="text-purple-300 font-semibold">Apertus 1.5 多模态大模型</span>
               ，无需全程依赖云端。依托芯片强大端侧算力，实现院内实时环境感知、老人姿态识别、语音交互与本地安全决策，将护理人员从查房巡检、体征提醒、风险监测等大量重复性工作中释放，聚焦高难度专业护理操作。
             </p>
 
@@ -414,7 +414,7 @@ export default function B2BEldercare() {
             <div className="flex flex-wrap gap-2.5">
               {[
                 { icon: Cpu, text: 'AegisEdge Ai5 端侧芯片' },
-                { icon: Sparkles, text: 'Qwen3-Omni 多模态大模型' },
+                { icon: Sparkles, text: 'Apertus 1.5 多模态大模型' },
                 { icon: Network, text: '无需全程依赖云端' },
                 { icon: Lock, text: '本地安全决策' },
                 { icon: Activity, text: '实时环境感知' },

@@ -32,7 +32,7 @@ export const products = [
       '森卫 C1 基础陪护版面向独居老人家庭，以低成本提供原地固定式安全守护：日常语音对话、用药提醒、跌倒视觉识别与一键紧急呼叫，是子女送父母的第一台安心机器人。',
     hardware: '人形简化机身 · AegisEdge Ai5 轻量算力版 · 基础双目摄像头 · 单麦克风',
     features: [
-      '日常语音对话、天气/用药提醒、简单问答（Qwen3-Omni 端侧轻量化模型）',
+      '日常语音对话、天气/用药提醒、简单问答（Apertus 1.5 端侧轻量化模型）',
       '跌倒视觉识别，触发手机 APP 告警推送',
       '一键紧急呼叫子女',
       '简易环境监测：温湿度、烟雾检测',
@@ -460,7 +460,7 @@ export const featuredAccessories = [
   },
 ];
 
-export const brands = ['AEGISEDGE', 'SENSENTINEL', 'QWEN3-OMNI', 'UNITREE', 'UBTECH', 'FIGURE', 'BOSTON DYNAMICS'];
+export const brands = ['AEGISEDGE', 'SENSENTINEL', 'APERTUS', 'SWISS AI', 'UNITREE', 'UBTECH', 'FIGURE', 'BOSTON DYNAMICS'];
 
 export const agricultureProducts = [
   {

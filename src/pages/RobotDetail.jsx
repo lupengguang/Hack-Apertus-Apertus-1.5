@@ -47,7 +47,7 @@ const pillars = [
 const pipeline = [
   { step: '01', title: '感知输入', desc: '摄像头 / 麦克风 / 触觉 / 激光雷达 / IMU 多模态原始信号' },
   { step: '02', title: '张量融合', desc: 'AegisEdge Ai5 NPU 在统一张量空间完成多模态对齐与特征融合' },
-  { step: '03', title: '大模型推理', desc: '端侧 70B 稀疏化大模型实时推理，输出动作策略' },
+  { step: '03', title: '大模型推理', desc: 'Apertus 1.5 端侧大模型实时推理（8B 量化本地运行），输出动作策略' },
   { step: '04', title: '运动执行', desc: '28 自由度执行器毫秒级响应，全身协调控制输出' },
 ];
 
@@ -72,10 +72,10 @@ const archColumns = [
   {
     no: '03',
     icon: Brain,
-    title: 'Qwen3-Omni 推理',
+    title: 'Apertus 1.5 推理',
     tone: 'from-purple-500/30 to-purple-500/5',
     dot: 'bg-purple-400',
-    items: ['风险判断', '对话生成', '情绪识别'],
+    items: ['跌倒姿态识别', '陪护对话生成', '健康风险研判'],
   },
   {
     no: '04',
@@ -251,7 +251,7 @@ export default function RobotDetail() {
           </h1>
 
           <p className="text-base md:text-lg text-white/70 max-w-2xl mb-10 leading-relaxed">
-            3nm 制程 · 1280 TOPS · 端侧 70B 大模型推理 · 多模态融合延迟 &lt; 2ms —— 为森卫安护人形机器人量身打造
+            3nm 制程 · 1280 TOPS · Apertus 1.5 端侧推理 · 多模态融合延迟 &lt; 2ms —— 为森卫安护人形机器人量身打造
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
@@ -580,7 +580,7 @@ export default function RobotDetail() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { tag: 'B 端', title: '机构 24h 巡护', desc: '养老院整建制部署，AegisEdge Ai5 驱动毫秒级跌倒识别与转移辅助', color: 'from-blue-500/20 to-cyan-500/20', border: 'border-blue-400/40' },
-              { tag: 'C 端', title: '家庭情感陪伴', desc: '端侧 70B 大模型支撑情感对话，隐私不出户、延迟可忽略', color: 'from-teal-500/20 to-emerald-500/20', border: 'border-teal-400/40' },
+              { tag: 'C 端', title: '家庭情感陪伴', desc: 'Apertus 1.5 8B 量化端侧模型支撑情感对话，隐私不出户、延迟可忽略', color: 'from-teal-500/20 to-emerald-500/20', border: 'border-teal-400/40' },
               { tag: 'G 端', title: '民政公益巡访', desc: '硬件级安全飞地保障行为可追溯，对接监管平台合规留痕', color: 'from-indigo-500/20 to-purple-500/20', border: 'border-indigo-400/40' },
             ].map((s, idx) => (
               <motion.div
@@ -655,7 +655,7 @@ export default function RobotDetail() {
               {
                 no: '02',
                 title: '计算与内存 · 击穿内存墙',
-                desc: '64 阵列矩阵式计算单元 + 4 组多层 HBM3 堆叠，权重常驻片上无需搬运，820 GB/s 带宽彻底击穿内存墙。端侧 70B 级大模型实时推理，为人形机器人的视觉识别、语音理解与运动规划提供算力底座。',
+                desc: '64 阵列矩阵式计算单元 + 4 组多层 HBM3 堆叠，权重常驻片上无需搬运，820 GB/s 带宽彻底击穿内存墙。端侧 Apertus 1.5 大模型实时推理，为人形机器人的视觉识别、语音理解与运动规划提供算力底座。',
                 points: ['64 阵列计算单元', '4 组 HBM3 多层堆叠', '820 GB/s 带宽常驻片上'],
               },
               {

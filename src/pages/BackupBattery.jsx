@@ -90,7 +90,7 @@ const keepFunctions = [
   {
     icon: MessagesSquare,
     title: '语音陪伴不断线',
-    desc: 'Qwen3-Omni 端侧对话照常运行，陪老人聊天解闷、安抚情绪，缓解停电时的焦虑。',
+    desc: 'Apertus 1.5 端侧对话照常运行，陪老人聊天解闷、安抚情绪，缓解停电时的焦虑。',
     stat: '端侧运行',
   },
   {
